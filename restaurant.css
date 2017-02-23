@@ -33,6 +33,11 @@
 	font-family: 'Amatic SC', cursive;
 }
 
+.udsolgt,
+.rabat {
+	text-decoration: line-through;
+}
+
 
 /*
 .first_foodtruck_bg {
