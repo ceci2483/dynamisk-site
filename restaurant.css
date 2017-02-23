@@ -1,0 +1,153 @@
+.dropdown {
+	margin: 40px;
+}
+
+.modalknap {
+	color: black;
+
+
+}
+
+.content_foodtruck {
+	background-color: #909080;
+}
+
+.om_tekst {
+	font-size: 16px;
+	padding-bottom: 27px;
+	color: white;
+	padding-left: 7vw;
+	padding-right: 8vw;
+}
+
+.event_name_p {
+	font-size: 32px;
+	padding-bottom: 2px;
+	color: black;
+	font-family: 'Amatic SC', cursive;
+}
+
+.white_home_h1 {
+	font-size: 56px;
+	padding-bottom: px;
+	padding-top: 97px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+.first_foodtruck_bg {
+	background-image: url(imgs/large/baltiskbondesuppe.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.second_foodtruck_bg {
+	background-image: url(imgs/medium/boef-md.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.third_foodtruck_bg {
+	background-image: url(imgs/large/bulgarskbondesuppe.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.fourth_foodtruck_bg {
+	background-image: url(imgs/large/hvidvin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.fifth_foodtruck_bg {
+	background-image: url(imgs/large/russisktapas.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.sixth_foodtruck_bg {
+	background-image: url(imgs/large/groggiroshorn.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 1000px;
+	height: 300px;
+	min-height: 350px;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+.navbar-default {
+	-webkit-transition: all .35s;
+	-moz-transition: all .35s;
+	transition: all .35s;
+	padding: 15px 0;
+	/* Add additional styles here for the UNCOLLAPSED state */
+}
+
+.navbar-default.affix {
+	padding: 5px 0;
+	font-size: 1.9vw;
+	/* Add additional styles here for the COLLAPSED state */
+}
+
+.logo_menubar.affix {
+	margin-top: -15px;
+	height: 50px;
+	width: 50px;
+}
+
+.navbar-default .navbar-nav>li>.affix {
+	color: white;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	margin: 0;
+	padding: 15px 0px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	font-size: 2vw;
+	background-color: rgba(0, 0, 0, 0.75);
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #FFB100;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;
+}

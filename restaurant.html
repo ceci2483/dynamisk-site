@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rusisk restaurant</title>
+	<link rel="stylesheet" href="restaurant.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+					<span class="sr-only"> toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="restaurant.html" class="navbar-brand">
+					<img src="imgs/I-Love-Food-Quotes-Tumblr-1-450x300.jpg" class="logo_menubar img-responsive" width="60px"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="collapsemenu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="nav_margin" href="restaurant.html">Menu</a></li>
+					<li><a href="bookings.html"> Bookings </a></li>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+	<div class="container-fluid  content_foodtruck">
+		<div class="row foodtruck_head_bg">
+			<h1 class="white_home_h1 text-center text-uppercase">Rusisk køkken</h1>
+			<div class="white_home_h-line center-block"></div>
+			<p class="om_tekst text-center tipi_wrapper"> Rusisk mad spænder over ekstremer, fra landboens udpinte suppe af kål og kartofler til verdens dyreste delikatesse, caviar (ikra) fra kaspisk stør. Gensidige påvirkninger mellem russ. og nordisk, som er sket lige siden vikingernes (varegernes) erobringer, spores i østlig brug af gravet og røget fisk, røget kød, syrnet mælk og fløde, friskost, brød af rug, mens surkål og de saltede, syrnede el. syltede agurker, rødbeder og svampe er vandret vestpå. </p>
+		</div>
+
+
+		<!-- sorterings-afdeling -->
+		<div class="dropdown">
+			<button class="btn btn-primary sortering_dropdown dropdown-toggle" type="button" data-toggle="dropdown">Sortering
+				<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+				<li><a href="#">Rabat</a></li>
+				<li><a href="#">Billede</a></li>
+				<li><a href="#">Pris</a></li>
+				<li><a href="#">Udsolgt-status</a></li>
+			</ul>
+		</div>
+
+
+
+		<!-- menu-afdeling -->
+		<div class="container-fluid content_menu">
+
+
+			<!-- menu-1 afdeling -->
+			<div class="col-xs-6 col-md-4 first_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Suppe</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel1">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<!-- menu 2-afdeling -->
+			<div class="col-xs-6 col-md-4 second_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Kød m. grønt</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel2">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!-- menu 3-afdeling -->
+			<div class="col-xs-6 col-md-4 third_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Godt fra havet</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel3">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<!-- menu 4-afdeling -->
+			<div class="col-xs-6 col-md-4 fourth_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Hvidvin</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel4">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- menu 5-afdeling -->
+			<div class="col-xs-6 col-md-4 fifth_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Russisk Tapas</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel5">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<!-- menu 6-afdeling -->
+			<div class="col-xs-6 col-md-4 sixth_foodtruck_bg ">
+				<div class="content_event ">
+					<table style="height: 100%; width: 100%; center-block; ">
+						<tbody>
+							<tr>
+								<td class="align-middle "><span class="event_name_p ">Groggiroshorn</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="læs mere text-center">
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
+						Læs mere
+					</button>
+				</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel6">Udvidet Info</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Navn: <span class="data_fornavn2">Dynryp</span>
+								<br> Pris: 149 <span class="data_pris"></span> kr.
+								<br> Kategori: <span class="data_kategori"> </span> Hovedret
+								<br> Lang Beskrivelse: <span class="colorbox data_langBeskrivelse"></span> Dynrup - Russisk bulgur med skovsvampe fra det østlige Kirgisistan. Svampene minder om kantarelle, men med en mere støvet smag.
+								<br> Oprindelsesregion: <span class="data_livret"> </span> Rusland
+								<br> Vegetar: <span class="data_vegetar"> </span> 1
+								<br> Allergener: <span class="data_allergener"> </span> ingen
+								<br> Alkoholprocent: <span class="data_alkoholprocent"> </span> ingen
+								<br> Stjerner: <span class="data_stjerner"> </span> 1 Stjerne
+								<br> Relaterede: <span class="data_relaterede"> </span> ret 55 & 77
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+	</script>
+	<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+	<script src="restaurant.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
