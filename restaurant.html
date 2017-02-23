@@ -70,24 +70,29 @@
 
 
 			<!-- menu-1 afdeling -->
-			<div class="col-xs-6 col-md-4 first_foodtruck_bg ">
-				<div class="content_event ">
-					<table style="height: 100%; width: 100%; center-block; ">
-						<tbody>
-							<tr>
-								<td class="align-middle "><span class="event_name_p ">Suppe</span></td>
-							</tr>
-						</tbody>
-					</table>
+			<template>
+				<div class="hovedret_1 col-md-4 col-xs-6">
+					<div id="person_info1" class="border">
+						<img src="imgs/large/dynryp.jpg" alt="dynryp" class="img-responsive data_billede img_size" alt="billede">
+						<div class="info text-center">
+							<h3> <span class="data_navn text-center">DATA_NAVN</span> </h3>
+							<h4 class="pris"><em> Pris: <span class="data_pris "> DATA_PRIS </span> ,- </em> </h4>
+							<!-- to do: sæt udsolgt class ved udsolgt -->
+							<!-- sæt rabat class på rabat -->
+							<h4 class="rabatpris"> Pris: <span class="data_rabatpris">DATA_RABATPRIS</span>,- </h4>
+							<!-- skal kun vises ved rabat -->
+							<h4 class="udsolgttekst"> Denne ret er desværre udsolgt </h4>
+							<!-- skal kun vises ved udsolgt produkter -->
+						</div>
+						<div class="læs mere text-center">
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary modalknap modalknap_margin_bottom  " data-toggle="modal" data-target="#myModal">
+								<em> Læs mere</em>
+							</button>
+						</div>
+					</div>
 				</div>
-
-				<div class="læs mere text-center">
-					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-primary modalknap  " data-toggle="modal" data-target="#myModal">
-						Læs mere
-					</button>
-				</div>
-			</div>
+			</template>
 
 
 
