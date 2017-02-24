@@ -1,3 +1,32 @@
+/* filtrering start */
+
+
+/*
+
+.produkt.tilbud {
+	background-color: yellow;
+}
+
+.produkt.vegetar {
+	background-color: green;
+}
+
+.produkt:not(vegetar) {
+	background-color: red;
+}
+
+.produkt.alkohol {
+	background-color: blueviolet;
+}
+*/
+
+
+/* filtrering slut */
+
+.content_sorterings {
+	margin-top: 10vw;
+}
+
 .dropdown {
 	margin: 40px;
 }
